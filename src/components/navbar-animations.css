@@ -1,46 +1,32 @@
-/* Add this to your global CSS file (e.g., index.css or globals.css) */
-
 /* AI Search Button - Animated Border Light */
 @keyframes border-light-top {
   0% { left: -100%; }
   50%, 100% { left: 100%; }
 }
-
 @keyframes border-light-right {
   0%, 50% { top: -100%; }
   100% { top: 100%; }
 }
-
 @keyframes border-light-bottom {
   0% { right: -100%; }
   50%, 100% { right: 100%; }
 }
-
 @keyframes border-light-left {
   0%, 50% { bottom: -100%; }
   100% { bottom: 100%; }
 }
-
 .animate-border-light-top {
   animation: border-light-top 3s linear infinite;
 }
-
 .animate-border-light-right {
   animation: border-light-right 3s linear infinite;
   animation-delay: 0.75s;
 }
-
 .animate-border-light-bottom {
   animation: border-light-bottom 3s linear infinite;
   animation-delay: 1.5s;
 }
-
 .animate-border-light-left {
   animation: border-light-left 3s linear infinite;
   animation-delay: 2.25s;
-}
-
-/* Also add padding-top to your main content to account for fixed navbar */
-.main-content {
-  padding-top: 90px; /* Adjust based on navbar height */
 }
