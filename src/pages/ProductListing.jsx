@@ -3,15 +3,14 @@ import { ShoppingCart } from 'lucide-react';
 
 const ProductListing = () => {
   const products = [
-    { name: "V.K. India Top HDPE Tarpaulin", mrp: 9954, price: 953, image: "https://images.unsplash.com/photo-1621905252507-b35492cc74b4?w=400&h=300&fit=crop" },
-    { name: "V.K. Champion Waterproof HDPE", mrp: 9959, price: 549, image: "https://images.unsplash.com/photo-1605600659870-869b0d5c5b9a?w=400&h=300&fit=crop" },
-    { name: "V.K. Sarvottam UV Coated", mrp: 9959, price: 519, image: "https://images.unsplash.com/photo-1589939705384-5185137a7f0f?w=400&h=300&fit=crop" },
-    { name: "Eco-Friendly 120 GSM", mrp: 9945, price: 1711, image: "https://images.unsplash.com/photo-1621905251189-08b45d6a2c2e?w=400&h=300&fit=crop" },
-    { name: "Eco-Friendly 100 GSM", mrp: 9945, price: 1711, image: "https://images.unsplash.com/photo-1589939705384-5185137a7f0f?w=400&h=300&fit=crop" },
-    { name: "Eco-Friendly 185 GSM", mrp: 9945, price: 1711, image: "https://images.unsplash.com/photo-1605600659870-869b0d5c5b9a?w=400&h=300&fit=crop" },
-    { name: "V.K. Sarvottam 155 GSM", mrp: 9966, price: 1484, image: "https://images.unsplash.com/photo-1621905252507-b35492cc74b4?w=400&h=300&fit=crop" },
-    { name: "Smart 90GSM Yellow Check", mrp: 9929, price: 615, image: "https://images.unsplash.com/photo-1589939705384-5185137a7f0f?w=400&h=300&fit=crop" },
-    { name: "Smart 120GSM Yellow", mrp: 9929, price: 830, image: "https://images.unsplash.com/photo-1605600659870-869b0d5c5b9a?w=400&h=300&fit=crop" }
+    { name: "Benefits of Using Custom Tarpaulins for Outdoor Needs", mrp: 9954, price: 3599, image: "https://res.cloudinary.com/dfls5jdyc/image/upload/v1780822833/im5_vw0jj7.jpg" },
+    { name: "The Most Durable Tarpaulin Sheets for Extreme Weather", mrp: 3999, price: 1399, image: "https://res.cloudinary.com/dfls5jdyc/image/upload/v1780822646/im4_aba7ic.jpg" },
+    { name: "Features and applications of Heavy Weight Tarpaulin", mrp: 7959, price: 4999, image: "https://res.cloudinary.com/dfls5jdyc/image/upload/v1780823052/im6_jpltkb.jpg" },
+    { name: "Heavy-Duty Tarpaulin For Keeping Your Outdoor Equipment Safe&Sound", mrp: 9945, price: 5999, image: "https://res.cloudinary.com/dfls5jdyc/image/upload/v1780822473/im3_jnowee.jpg" },
+    { name: "Using Waterproof Tarpaulin Sheets for Construction Site Protection", mrp: 9945, price: 3999, image: "https://res.cloudinary.com/dfls5jdyc/image/upload/v1780821902/im2_tmyxpa.jpg" },
+    { name: "The Ultimate Guide to Choosing the Right Tarpaulin Sheet", mrp: 19999, price: 15999, image: "https://res.cloudinary.com/dfls5jdyc/image/upload/v1780814567/d279f74df89f38c2b7171dc68744d532_jop9mz.jpg" },
+    { name: "Multi Use Heavy Duty Waterproof Tarpaulin Sheet", mrp: 19999, price: 14999, image: "https://res.cloudinary.com/dfls5jdyc/image/upload/v1780824097/im7_qztwyl.jpg" },
+    { name: "10 Oz Vinyl Tarp Manufacturer Factory, Supplier, Wholesale - UNISIGN", mrp: 22999, price: 20999, image: "https://res.cloudinary.com/dfls5jdyc/image/upload/v1780824214/im8_m9rntk.jpg" },
   ];
 
   return (

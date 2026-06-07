@@ -83,9 +83,9 @@ const Navbar = () => {
             <Sparkles className="w-4 h-4" /> AI Search
             <span className="absolute -top-2 -right-2 bg-red-500 text-white text-[10px] font-bold px-1.5 py-0.5 rounded-full">New</span>
           </button>
-          <button className="text-sm font-semibold text-gray-700 hover:text-red-500">Login</button>
+          {/* <button className="text-sm font-semibold text-gray-700 hover:text-red-500">Login</button>
           <button className="text-sm font-semibold text-white bg-slate-700 hover:bg-slate-800 px-4 py-2 rounded-lg">Sign Up</button>
-          <Grid className="w-5 h-5 text-gray-600 cursor-pointer" />
+          <Grid className="w-5 h-5 text-gray-600 cursor-pointer" /> */}
         </div>
 
         {/* Mobile Auth Icons */}

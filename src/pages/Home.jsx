@@ -34,7 +34,7 @@ const HeroSection = () => {
       <div className="max-w-7xl mx-auto px-1">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-4">
           {/* Left Sidebar - Categories (Desktop only) */}
-          <div className="hidden lg:block lg:col-span-2 bg-white rounded-lg shadow-sm p-3 h-fit">
+           <div className="hidden lg:block lg:col-span-2 bg-white rounded-lg shadow-sm p-3 h-fit">
             <h3 className="text-sm font-bold text-slate-800 mb-2">Top Categories</h3>
             <div className="space-y-1">
               {categories.map((cat, index) => (
